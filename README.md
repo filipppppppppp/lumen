@@ -1,8 +1,6 @@
 # ✨ Lumen library
 An arduino library that makes LED usage simple and flexible.
 
-![lumen-arch](/images/lumen-2.png)
-
 ## Non-PWM Support
 ```cpp
 #include <lumen.hpp>
@@ -103,3 +101,6 @@ void loop() {
   my_effect.apply(my_led);
 }
 ```
+
+## Architectural Overview
+![lumen-arch](/images/lumen-2.png)
