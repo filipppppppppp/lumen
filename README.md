@@ -5,7 +5,7 @@ An arduino library that makes LED usage simple and flexible.
 ```cpp
 #include <lumen.hpp>
 
-// connect to led at pin 4
+// connect to LED at pin 4
 lumen::led::basic_led second_led(4);
 
 void setup() {}
@@ -22,7 +22,7 @@ void loop() {
 ```cpp
 #include <lumen.hpp>
 
-// connect to led at pin 3
+// connect to LED at pin 3
 lumen::led::pwm_led my_led(3);
 
 void setup() {
