@@ -45,11 +45,10 @@ void loop() {
 ```
 
 ## Chaining Support
-Chaining together different types of LEDs.
 ```cpp
 #include <lumen.hpp>
 
-// connect to LED at pin 3
+// connect to the LEDs
 lumen::led::pwm_led first_led(3);
 lumen::led::basic_led second_led(4);
 
@@ -83,7 +82,6 @@ void loop() {
 ```
 
 ## Effects Support
-Implement your own effects by implementing the lumen::fx::effect interface.
 ```cpp
 #include <lumen.hpp>
 
