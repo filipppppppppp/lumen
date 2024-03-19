@@ -44,7 +44,7 @@ void loop() {
 }
 ```
 
-## Chaining LEDs together
+## Chaining Support
 Chaining together different types of LEDs.
 ```cpp
 #include <lumen.hpp>
