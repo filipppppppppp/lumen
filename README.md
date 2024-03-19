@@ -103,3 +103,6 @@ void loop() {
   my_effect.apply(my_led);
 }
 ```
+
+## Architectural Overview
+![lumen-arch](/images/lumen.png)
