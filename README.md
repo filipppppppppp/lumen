@@ -44,7 +44,7 @@ void loop() {
 }
 ```
 
-## Effects
+## Effects Support
 Creating effects for your LEDs becomes simple with Lumen, all you need to do is just implement the lumen::fx::effect interface.
 ```cpp
 #include <lumen.hpp>
