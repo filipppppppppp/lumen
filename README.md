@@ -48,7 +48,7 @@ void loop() {
 ```cpp
 #include <lumen.hpp>
 
-// connect to led at pin 4 with inverted logic
+// connect to LED at pin 4 with inverted logic
 lumen::led::basic_led second_led(4, false);
 ```
 
