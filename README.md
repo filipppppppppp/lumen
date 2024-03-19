@@ -81,6 +81,23 @@ void loop() {
 }
 ```
 
+## Inverted Logic Support
+```cpp
+#include <lumen.hpp>
+
+// connect to led at pin 4
+lumen::led::basic_led second_led(4, false);
+
+void setup() {}
+
+void loop() {
+  // toggling it!
+  my_led.toggle();
+
+  delay(1000);
+}
+```
+
 ## Effects Support
 ```cpp
 #include <lumen.hpp>
