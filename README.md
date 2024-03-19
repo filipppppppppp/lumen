@@ -8,7 +8,7 @@ An arduino library that makes LED usage simple and flexible.
 #include <lumen.hpp>
 
 // connect to LED at pin 4
-lumen::led::basic_led second_led(4);
+lumen::led::basic_led my_led(4);
 
 void setup() {}
 
