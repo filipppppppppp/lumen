@@ -111,4 +111,4 @@ void loop() {
 ```
 
 ## Architectural Overview
-![lumen-arch](/images/lumen.png)
+![lumen-arch](/images/test.png)
