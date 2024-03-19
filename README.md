@@ -1,7 +1,7 @@
 # ✨ Lumen library
 An arduino library that makes LED usage simple and flexible.
 
-## Digital LEDs
+## Non-PWM Support
 ```cpp
 #include <lumen.hpp>
 
@@ -18,7 +18,7 @@ void loop() {
 }
 ```
 
-## Pwm LEDs
+## PWM Support
 ```cpp
 #include <lumen.hpp>
 
