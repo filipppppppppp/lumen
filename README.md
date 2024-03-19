@@ -1,7 +1,7 @@
 # ✨ Lumen library
 An arduino library that makes LED usage simple and flexible.
 
-![lumen-arch](/images/test.png)
+![lumen-arch](/images/lumen.png)
 
 ## Non-PWM Support
 ```cpp
