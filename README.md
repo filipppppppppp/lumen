@@ -51,7 +51,7 @@ void loop() {
 #include <lumen.hpp>
 
 // connect to LED at pin 4 with inverted logic
-lumen::led::basic_led second_led(4, false);
+lumen::led::basic_led my_led(4, false);
 ```
 
 ## Chaining Support
